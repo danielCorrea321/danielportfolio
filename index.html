@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Front</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/icone.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#port">Portifolio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="home">
+        <div class="container">
+            <div class="icons"> <!--Ion icons-->
+                <a href="https://www.instagram.com/dartz_tattoo/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.facebook.com/profile.php?id=100010121554597" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://github.com/danielCorrea321" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/daniel-santos-corr%C3%AAa-007979217/#experience" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+            <div class="title">
+                <h1>Daniel S.</h1>
+                <h2>Developer</h2>
+                <h3>front end developer</h3>
+            </div>
+        </div>
+    </main>
+
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <h1>Sou Desenvolvedor Front End</h1>
+                <p>Me chamo Daniel Santos e estou aumentando minhas habilidades de desenvolvimento front-end de maneira autodidata através de cursos na internet. Procuro uma oportunidade de ingressar no mercado de programação como trainner, para aprender mais sobre a execução da profissão em uma empresa e me especializar como um futuro profissional renomado na área.</p>
+                <div class="box-title">
+                    <p>90%</p>
+                    <div class="b1"><div class="b2"></div></div>
+                    <span>HTML</span>
+                    <p>85%</p>
+                    <div class="b1"><div class="b3"></div></div>
+                    <span>CSS</span>
+                    <p>65%</p>
+                    <div class="b1"><div class="b4"></div></div>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="imagem">
+                <img src="images/codigo.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section id="port">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="images/about.png" alt="">
+                    <h1>Site</h1>
+                    <p>Entre em contato comigo.<br>Crio sites profissionais e responsivos para Web que podem ser usados tanto em um monitor quanto em um celular.<br> Sites são fundamentais para qualquer empresa ou negôcio, pois eles valorizam seu empreendimento, divulgam e agregam mais confiança para o cliente.</p>
+                    <button><a href="#contact">Contate-me</a></button>
+                </label>
+
+                <label class="card" for="item-2" id="song-2">
+                    <img src="images/about.png" alt="">
+                    <h1>Design</h1>
+                    <p>O design do site é profissional e feito com CSS3.<br>Com os sites que crio seu negôcio irá decolar, pois mudará o modo como seu cliente vê seu produto/serviço.</p>
+                    <button><a href="#contact">Contate-me</a></button>
+                </label>
+
+                <label class="card" for="item-3" id="song-3">
+                    <img src="images/about.png" alt="">
+                    <h1>Serviço</h1>
+                    <p>O serviço que ofereço é de qualidade, meu foco é crescer e ganhar a vida com a programação, para isso dedico meu esforço e tempo para melhorar cada vez mais nessa área, apesar de ainda estar no começo dessa jornada, eu sou capaz de entregar o meu melhor para satisfazer meu cliente.</p>
+                    <button><a href="#contact">Contate-me</a></button>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="content-contact">
+                <div class="contact-left">
+                    <h1>Ente em Contato</h1>
+                    <div class="linha"></div>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>daniel.correa321@hotmail.com</span>
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>21 96987-6407</span>
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>Rio de Janeiro, Brazil</span>
+                </div>
+                <div class="contact-right">
+                    <h1>Preencha o Formulário</h1>
+                    <div class="linha"></div>
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Nome">
+                    <textarea placeholder="Mensagem"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Copyright2022 <a href="">Inicio</a> All Rights Reserved</span>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
