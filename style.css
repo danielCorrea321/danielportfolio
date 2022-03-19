@@ -366,6 +366,9 @@ footer a{
 /*===== Resposive =====*/
 
 @media screen and (max-width: 1280px){
+    .imagem {
+        display: none;
+    }
     #home .container {
         background: linear-gradient(rgb(1, 1, 167), black);
     }
@@ -379,6 +382,7 @@ footer a{
         width: 280px;
         font-size: 0.8rem;
     }
+
 }
 @media screen and (max-width: 960px){
     body{
