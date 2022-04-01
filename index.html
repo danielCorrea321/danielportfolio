@@ -17,9 +17,14 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#port">Portifolio</a></li>
-                <li><a href="#port">Projetos</a></li>
+                <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
+        </div>
+        <div class="hidden-Menu" onclick="showMenu()">
+            <div class="barrinha"></div>
+            <div class="barrinha"></div>
+            <div class="barrinha"></div>
         </div>
     </header>
 
@@ -32,7 +37,7 @@
                 <a href="https://www.linkedin.com/in/daniel-santos-corr%C3%AAa-007979217/#experience" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
             </div>
             <div class="title">
-                <h1>Daniel S.</h1>
+                <h1>Daniel</h1>
                 <h2>Developer</h2>
                 <h3>front end developer</h3>
             </div>
@@ -71,26 +76,45 @@
                 <label class="card" for="item-1" id="song-1">
                     <img src="images/about.png" alt="">
                     <h1>Site</h1>
-                    <p>Entre em contato comigo.<br>Crio sites profissionais e responsivos para Web que podem ser usados tanto em um monitor quanto em um celular.<br> Sites são fundamentais para qualquer empresa ou negôcio, pois eles valorizam seu empreendimento, divulgam e agregam mais confiança para o cliente.</p>
+                    <p class="desc-Port">Entre em contato comigo.<br>Crio sites profissionais e responsivos para Web que podem ser usados tanto em um monitor quanto em um celular.<br> Sites são fundamentais para qualquer empresa ou negôcio, pois eles valorizam seu empreendimento, divulgam e agregam mais confiança para o cliente.</p>
                     <button><a href="#contact">Contate-me</a></button>
                 </label>
 
                 <label class="card" for="item-2" id="song-2">
                     <img src="images/about.png" alt="">
                     <h1>Design</h1>
-                    <p>O design do site é profissional e feito com CSS3.<br>Com os sites que crio seu negôcio irá decolar, pois mudará o modo como seu cliente vê seu produto/serviço.</p>
+                    <p class="desc-Port">O design do site é profissional e feito com CSS3.<br>Com os sites que crio seu negôcio irá decolar, pois mudará o modo como seu cliente vê seu produto/serviço.</p>
                     <button><a href="#contact">Contate-me</a></button>
                 </label>
 
                 <label class="card" for="item-3" id="song-3">
                     <img src="images/about.png" alt="">
                     <h1>Serviço</h1>
-                    <p>O serviço que ofereço é de qualidade, meu foco é crescer e ganhar a vida com a programação, para isso dedico meu esforço e tempo para melhorar cada vez mais nessa área, apesar de ainda estar no começo dessa jornada, eu sou capaz de entregar o meu melhor para satisfazer meu cliente.</p>
+                    <p class="desc-Port">O serviço que ofereço é de qualidade, meu foco é crescer e ganhar a vida com a programação, para isso dedico meu esforço e tempo para melhorar cada vez mais nessa área, apesar de ainda estar no começo dessa jornada, eu sou capaz de entregar o meu melhor para satisfazer meu cliente.</p>
                     <button><a href="#contact">Contate-me</a></button>
                 </label>
             </div>
         </div>
     </section>
+
+    <section id="projetos">
+        <div class="project-list">
+            <div class="project"><a class="projectSelector" href=""><img src=""/><h3 class="projQuest">.</h3></a></div>
+        </div>
+    </section>
+
+    <div class="infos-sobrepostas">
+        <div class="fechar" onclick="fechaInfos()">X</div>
+        <div class="infosProjeto">
+            <div class="fotoProjeto"><img src=""/></div>
+            <div class="Info-Projeto">
+                <h1 class="nome-Projeto">.</h1>
+                <h3 class="desc-Projeto">.</h3>
+                <a href="">link git</a>
+            </div>
+        </div>
+    </div>
+    
 
     <section id="contact">
         <div class="container">
@@ -117,10 +141,12 @@
     </section>
 
     <footer>
-        <span>Copyright2022 <a href="">Inicio</a> All Rights Reserved</span>
+        <span>Copyright2022 <a href="#home">Inicio</a> All Rights Reserved</span>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
+
+    <script src="lista.js"></script>
+    <script src="java.js"></script>
 </body>
 </html>
