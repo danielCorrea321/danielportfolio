@@ -12,9 +12,6 @@ body {
     overflow-x: hidden;
     z-index: 10; /* Header sobrepõe o site */
 }
-main {
-    min-height: 100vh;
-}
 ::-webkit-scrollbar {
     width: 15px;
     background-color: #222;
@@ -60,7 +57,7 @@ nav {
 
 main {
     background: #222;
-    height: 88vh;
+    min-height: 88vh;
 }
 .nav-list {
     list-style: none;
