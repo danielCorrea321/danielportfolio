@@ -98,3 +98,11 @@ let card3 = document.querySelector('#card3');
 card3.addEventListener('click',(e)=>{
     card3.classList.toggle('flip');
 });
+let card4 = document.querySelector('#card4');
+card4.addEventListener('click',(e)=>{
+    card4.classList.toggle('flip');
+});
+let card5 = document.querySelector('#card5');
+card5.addEventListener('click',(e)=>{
+    card5.classList.toggle('flip');
+});
