@@ -502,10 +502,16 @@ main {
     background: linear-gradient(rgb(255, 94, 0),rgb(114, 42, 0));
 }
 .css {
-    background: linear-gradient(rgb(62, 152, 255),rgb(0, 73, 95));
+    background: linear-gradient(blue,rgb(173, 173, 173));
 }
 .js {
     background: linear-gradient(yellow,rgb(102, 92, 0));
+}
+.ts {
+    background: linear-gradient(rgb(62, 152, 255),rgb(0, 73, 95));
+}
+.rj {
+    background: linear-gradient(rgb(91, 168, 255),rgb(126, 126, 126));
 }
 #back h3 {
     padding: 10px;
@@ -530,6 +536,18 @@ main {
     transition: all .5s;
 }
 #card3 {
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all .5s;
+}
+#card4 {
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all .5s;
+}
+#card5 {
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
