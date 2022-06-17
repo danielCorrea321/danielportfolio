@@ -402,13 +402,34 @@ main {
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(255, 81, 0, .5);
     border-radius: 15px;
-    background: linear-gradient(120deg,rgb(255,81,0),#222 60%);
+    
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: 1px solid rgba(255, 0, 0, 0.5);
     border-left: 1px solid rgba(0, 89, 255, 0.5);
+}
+.container .card1 {
+    background-image: url('./imgs/netflixClone.png');/*background: linear-gradient(120deg,rgb(255,81,0),#222 60%);*/
+    background-size: cover;
+    background-position: 20%;
+    color: white;
+}
+.container .card2 {
+    background-image: url('./imgs/jogoMemoria.png');/*background: linear-gradient(120deg,rgb(255,81,0),#222 60%);*/
+    background-size: cover;
+    background-position: 20%;
+    color: white;
+}
+.container .card3 {
+    background-image: url('./imgs/desenhandoCanvas.png');/*background: linear-gradient(120deg,rgb(255,81,0),#222 60%);*/
+    background-size: cover;
+    background-position: 50%;
+    color: white;
+}
+.container .card:hover {
+    background: rgba(0,0,0,.6);
 }
 .container .card .content {
     padding: 20px;
@@ -428,18 +449,16 @@ main {
     top: -80px;
     right: 30px;
     font-size: 8em;
-    color: rgba(255, 162, 119,.1);
+    color: rgba(255, 162, 119, 0.307);
     pointer-events: none;
 }
 .container .card .content h3 {
     font-size: 1.8em;
-    color: white;
     z-index: 1;
 }
 
 .container .card .content p {
     font-size: 1em;
-    color: white;
     font-weight: 300;
 }
 .container .card .content a {
